@@ -1,0 +1,254 @@
+html, body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0;
+    background-color: white;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .main {
+    height: 17rem;
+    padding-top: 1rem;
+    
+  }
+  .main img {
+    width: 25rem;
+    display: block;
+    margin: auto;
+    margin-top: .5rem;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  nav {
+    background-color: red;
+    padding: 0.75rem .5rem;
+    text-align: center;
+  }
+  
+  ul {
+    margin: 0;
+  }
+  
+  li {
+    color: white;
+    display: inline-block;
+    padding-right: 5rem;
+  }
+  @media only screen and (max-width: 960px){
+    .main{
+        padding-top: 0;
+    }
+    li{
+        padding-right: 1rem;    
+    }
+  }
+  @media only screen and (max-width: 360px){
+    .main {
+      height: 12rem;
+    }
+    .main img {
+      width: 15rem;
+      display: block;
+      margin: auto;
+      margin-top: .5rem;
+    }
+    li {
+      padding-right: .2rem;
+    }
+  }
+  .about-container{
+    background-color: red;
+    color: white;
+    height: 9rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #about p{
+    font-style: italic;
+    margin: 0 auto;
+    padding: 0rem 1rem;
+  }
+  #about span{
+    font-style: italic;
+    font-weight: bold;
+  }
+  @media only screen and (max-width: 360px){
+    .about-container{
+      height: auto;
+    }
+    #about p{
+      font-size: .95rem;
+      text-align: justify;
+      padding: 1rem 1rem;
+      margin-left: auto;
+      margin-right: auto;
+     
+    }
+  }
+  #player{
+    margin-top: 2rem;
+    color: red;
+    padding: 1rem 1rem;
+    text-align: justify;
+    
+  }
+  .text{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #player h3{
+    text-align: center;
+    text-decoration: underline;
+  }
+  #player span{
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  @media only screen and (max-width: 360px){
+    #player{
+      text-align: justify;
+      font-size: .85rem;
+    }
+  }
+  .award {
+    text-align: center;
+  }
+  .award img{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .award figcaption {
+    margin-top: .8rem;
+  }
+  #store h4{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: red;
+  }
+ 
+  .jerseys {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../images/jerseybackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 1rem;
+    text-align: center;
+    font-weight: bold;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  .jersey {
+    padding: .625rem;
+    color: white;
+    flex-basis: auto;
+  }
+  .jersey img{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: .5rem;
+    width: auto;
+    height: 16.5rem;
+  }
+  @media only screen and (max-width: 320px){
+    #store h4{
+      font-size: 1.2rem;
+    }
+    .jersey{
+      color: white;
+      font-weight: bolder;
+    }
+    .jersey figcaption{
+      font-size: 1.5rem;
+    }
+    .jersey img {
+      padding-bottom: 1rem;
+    }
+  }
+  footer{
+    background-color: red;
+    padding: 1.5rem 1rem;
+    
+ }
+ footer .content{
+  color: white;
+  display: flex;
+  font-size: .7rem;
+ }
+ footer .copyright{
+   flex-grow: 1;
+   
+ }
+@media only screen and (max-width: 360px){
+    footer .content{
+      font-size: .4rem;
+    }
+}
+/* without display:flex
+ .jerseys{
+    background-image: url(../images/jerseybackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 1rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: white;
+    
+  }
+  .jersey{
+    padding: .625rem;
+    display: inline-block;
+    width: 27%;
+    margin: 1rem;
+  }
+  .jersey img{
+    max-width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+  @media only screen and (max-width:1024px){
+    .jersey{
+      padding: .625rem;
+      display: inline-block;
+      width: 27%;
+      margin: 0 auto;
+    }
+    .jersey img{
+      max-width: 100%;
+      height: auto;
+      padding: 1rem;
+    }
+  }
+  @media only screen and (max-width:768px){
+    .jerseys {
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .jersey{
+      padding: .625rem;
+      display: inline-block;
+      width: 50%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .jersey img{
+      max-width: 100%;
+      height: auto;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }*/
